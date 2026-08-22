@@ -1,0 +1,99 @@
+Screen {
+    background: #0f1117;
+    color: #f5f5f7;
+}
+
+Header {
+    dock: top;
+    height: 3;
+    content-align: center middle;
+    background: #1e2230;
+    color: #0A84FF;
+    border-bottom: solid rgba(255, 255, 255, 0.08);
+}
+
+Footer {
+    dock: bottom;
+    background: #1e2230;
+    color: #86868b;
+}
+
+#sidebar {
+    dock: left;
+    width: 30;
+    height: 100%;
+    padding: 1 2;
+    background: #151821;
+    border-right: solid rgba(255, 255, 255, 0.08);
+}
+
+#main-content {
+    height: 100%;
+    width: 100%;
+    padding: 1 2;
+}
+
+.card {
+    background: #1e2230;
+    border: solid rgba(255, 255, 255, 0.08);
+    padding: 1 2;
+    margin-bottom: 1;
+}
+
+#target-input {
+    width: 100%;
+    margin-bottom: 1;
+    border: tall rgba(255, 255, 255, 0.1);
+    background: #0f1117;
+}
+
+#profile-list {
+    height: 1fr;
+    border: tall rgba(255, 255, 255, 0.1);
+    background: #1e2230;
+}
+
+#console-output {
+    height: 1fr;
+    border: tall rgba(255, 255, 255, 0.1);
+    background: #000000;
+    color: #30D158;
+}
+
+Button {
+    background: #0A84FF;
+    color: white;
+    border: none;
+    text-style: bold;
+    margin: 1 0;
+}
+
+Button:hover {
+    background: #409CFF;
+}
+
+Button.stop-btn {
+    background: #FF453A;
+}
+
+Button.stop-btn:hover {
+    background: #FF6961;
+}
+
+.badge {
+    color: #0A84FF;
+    background: rgba(10, 132, 255, 0.15);
+    text-style: bold;
+}
+
+.warning-text {
+    color: #FF9500;
+}
+
+.error-text {
+    color: #FF453A;
+}
+
+.success-text {
+    color: #30D158;
+}
